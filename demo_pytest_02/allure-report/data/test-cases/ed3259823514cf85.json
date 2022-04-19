@@ -1,0 +1,132 @@
+{
+  "uid" : "ed3259823514cf85",
+  "name" : "test_case1_01[1]",
+  "fullName" : "test_weibo.test_case3.TestWeibo#test_case1_01",
+  "historyId" : "fa47ce9f2749666fd5aeaefcf1d2cd77",
+  "time" : {
+    "start" : 1650113022183,
+    "stop" : 1650113023183,
+    "duration" : 1000
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1650113011101,
+      "stop" : 1650113011101,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "open_weibo",
+    "time" : {
+      "start" : 1650113022182,
+      "stop" : 1650113022182,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "90aba154d273c7c2",
+      "name" : "stdout",
+      "source" : "90aba154d273c7c2.txt",
+      "type" : "text/plain",
+      "size" : 62
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "login::0",
+    "time" : {
+      "start" : 1650113031227,
+      "stop" : 1650113031227,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_weibo"
+  }, {
+    "name" : "suite",
+    "value" : "test_case3"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWeibo"
+  }, {
+    "name" : "host",
+    "value" : "win-10"
+  }, {
+    "name" : "thread",
+    "value" : "10852-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_weibo.test_case3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "n",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dc63b71c28947ea5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650112794206,
+        "stop" : 1650112795207,
+        "duration" : 1001
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ed3259823514cf85.json",
+  "parameterValues" : [ "1" ]
+}

@@ -1,0 +1,70 @@
+{
+  "total" : 39,
+  "items" : [ {
+    "uid" : "4d3dee7e1d8987bfd1088ef61b1ce41c",
+    "name" : "epic 相当于总体描述",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "24d54030a68f0ce8c7cdd6d51867ca45",
+    "name" : "另一个 epic",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a207e64c185abe3ce96dc983bc7d055a",
+    "name" : "epic_1",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "26534e8388c3fa9e4b02ed0970520072",
+    "name" : "story_1",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "b73b6aaa9f863069aadb9424f2bd8eff",
+    "name" : "story-1",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "3c41166215608b95997e5bff069ffd15",
+    "name" : "feature_2",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

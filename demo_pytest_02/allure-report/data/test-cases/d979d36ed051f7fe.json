@@ -1,0 +1,106 @@
+{
+  "uid" : "d979d36ed051f7fe",
+  "name" : "test_with_attacments_in_fixture_and_finalizer",
+  "fullName" : "test_allure_attach#test_with_attacments_in_fixture_and_finalizer",
+  "historyId" : "d7815738a17a3881b24cdf1dd05be722",
+  "time" : {
+    "start" : 1650113011053,
+    "stop" : 1650113011053,
+    "duration" : 0
+  },
+  "description" : "\n这是一个@allure.description装饰器\n没有特别的用处\n",
+  "descriptionHtml" : "<p>这是一个@allure.description装饰器<br />\n没有特别的用处</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "attach_file_in_module_scope_fixture_with_finalizer",
+    "time" : {
+      "start" : 1650113011050,
+      "stop" : 1650113011051,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1945466969a3e20b",
+      "name" : "fixture前置附件",
+      "source" : "1945466969a3e20b.txt",
+      "type" : "text/plain",
+      "size" : 49
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "attach_file_in_module_scope_fixture_with_finalizer::finalizer_module_scope_fixture",
+    "time" : {
+      "start" : 1650113011053,
+      "stop" : 1650113011054,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cf7b91c2b1af2d7a",
+      "name" : "fixture后置附件",
+      "source" : "cf7b91c2b1af2d7a.txt",
+      "type" : "text/plain",
+      "size" : 49
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_allure_attach"
+  }, {
+    "name" : "host",
+    "value" : "win-10"
+  }, {
+    "name" : "thread",
+    "value" : "10852-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_allure_attach"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "260c2a45dfd7818d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650112783064,
+        "stop" : 1650112783064,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d979d36ed051f7fe.json",
+  "parameterValues" : [ ]
+}

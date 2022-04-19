@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{#<form action="/china/hello/?num=1" method="get">#}
+<table border="1" cellpadding="0" width="500px">
+    <tr>
+        <th>编号</th>
+        <th>名字</th>
+        <th>城市代码</th>
+        <th>描述</th>
+        <th>城市population</th>
+    </tr>
+    {% for city in perpage_data %}
+    <tr>
+        <td>{{ city.id }}</td>
+        <td>{{ city.name }}</td>
+        <td width="100px">{{ city.countrycode }}</td>
+        <td>{{ city.district }}</td>
+        <td>{{ city.population }}</td>
+    </tr>
+    {% endfor %}
+</table>
+<div>
+        {% if perpage_data.has_previous %}
+            <a href="/china/hello/?num={{ perpage_data.previous_page_number }}">上一页</a>
+        {% endif %}
+        {% for n in pager.page_range %}
+            {% if n < 11 %}
+                <a href="/china/hello/?num={{ n }}">{{ n }}</a>&emsp;
+            {% endif %}
+        {% endfor %}
+        {% if perpage_data.has_next %}
+            <a href="/china/hello/?num={{ perpage_data.next_page_number }}">下一页</a>
+        {% endif %}
+    </div>
+{#</form>#}
+</body>
+</html>

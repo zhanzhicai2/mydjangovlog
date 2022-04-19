@@ -1,0 +1,411 @@
+[ {
+  "uid" : "8b3c1ccf7e0d6d96",
+  "name" : "test_case1_01[4]",
+  "time" : {
+    "start" : 1650113025199,
+    "stop" : 1650113026199,
+    "duration" : 1000
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6fc137ca1928cc54",
+  "name" : "test_no_fixture[0]",
+  "time" : {
+    "start" : 1650113016154,
+    "stop" : 1650113017154,
+    "duration" : 1000
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4bc0aff13660471",
+  "name" : "test_with_testcase_link",
+  "time" : {
+    "start" : 1650113011097,
+    "stop" : 1650113011097,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d979d36ed051f7fe",
+  "name" : "test_with_attacments_in_fixture_and_finalizer",
+  "time" : {
+    "start" : 1650113011053,
+    "stop" : 1650113011053,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9cd0beaec7524f93",
+  "name" : "test_no_fixture[2]",
+  "time" : {
+    "start" : 1650113018162,
+    "stop" : 1650113019163,
+    "duration" : 1001
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a189b8675bb46357",
+  "name" : "成功登录，测试数据是：('name1', 'pwd1')",
+  "time" : {
+    "start" : 1650113011060,
+    "stop" : 1650113011061,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21327d2536294615",
+  "name" : "test_case1_02[3]",
+  "time" : {
+    "start" : 1650113029220,
+    "stop" : 1650113030220,
+    "duration" : 1000
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7fc2df4f562b4d98",
+  "name" : "test_with_link",
+  "time" : {
+    "start" : 1650113011090,
+    "stop" : 1650113011090,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e510239cc675cf79",
+  "name" : "test_multiple_attachments",
+  "time" : {
+    "start" : 1650113011056,
+    "stop" : 1650113011057,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16b721ee0aebdb6e",
+  "name" : "test_with_story_1",
+  "time" : {
+    "start" : 1650113016144,
+    "stop" : 1650113016144,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c6c22ee517f977a",
+  "name" : "test_with_story_2",
+  "time" : {
+    "start" : 1650113016148,
+    "stop" : 1650113016148,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "333c2bbea3c44538",
+  "name" : "多个参数4,5,6",
+  "time" : {
+    "start" : 1650113011075,
+    "stop" : 1650113011075,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8f2c5b6b9931caf",
+  "name" : "成功登录，测试数据是：('name2', 'pwd2')",
+  "time" : {
+    "start" : 1650113011065,
+    "stop" : 1650113011066,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42dce2324255e401",
+  "name" : "test_case1_02[1]",
+  "time" : {
+    "start" : 1650113027209,
+    "stop" : 1650113028210,
+    "duration" : 1001
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53890604ab2813e5",
+  "name" : "test_case_4",
+  "time" : {
+    "start" : 1650113016135,
+    "stop" : 1650113016135,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3002c0c9db666f86",
+  "name" : "test_no_fixture[0]",
+  "time" : {
+    "start" : 1650113011101,
+    "stop" : 1650113012102,
+    "duration" : 1001
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef66144601e8928e",
+  "name" : "test_case1_01[3]",
+  "time" : {
+    "start" : 1650113024193,
+    "stop" : 1650113025194,
+    "duration" : 1001
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59b682f295150bb1",
+  "name" : "test_no_fixture[3]",
+  "time" : {
+    "start" : 1650113014114,
+    "stop" : 1650113015115,
+    "duration" : 1001
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eba5a1ec5d006930",
+  "name" : "test_with_issue_link",
+  "time" : {
+    "start" : 1650113011094,
+    "stop" : 1650113011095,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd452ebbc087ecd9",
+  "name" : "用例的标题",
+  "time" : {
+    "start" : 1650113016125,
+    "stop" : 1650113016125,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9456bf10cf2f0b5b",
+  "name" : "test_no_fixture[1]",
+  "time" : {
+    "start" : 1650113017158,
+    "stop" : 1650113018158,
+    "duration" : 1000
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51ae29a73c7c2ca8",
+  "name" : "test_case_3",
+  "time" : {
+    "start" : 1650113016132,
+    "stop" : 1650113016132,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed3259823514cf85",
+  "name" : "test_case1_01[1]",
+  "time" : {
+    "start" : 1650113022183,
+    "stop" : 1650113023183,
+    "duration" : 1000
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58813e606f00478c",
+  "name" : "test_case1_01[2]",
+  "time" : {
+    "start" : 1650113023188,
+    "stop" : 1650113024188,
+    "duration" : 1000
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e370b55f07cbab8",
+  "name" : "test_case1_01[0]",
+  "time" : {
+    "start" : 1650113021177,
+    "stop" : 1650113022178,
+    "duration" : 1001
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aee902e19c965e80",
+  "name" : "test_no_fixture[3]",
+  "time" : {
+    "start" : 1650113019167,
+    "stop" : 1650113020167,
+    "duration" : 1000
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6abf579fac55efb1",
+  "name" : "test_case_2",
+  "time" : {
+    "start" : 1650113016128,
+    "stop" : 1650113016129,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "464c2f6e93312caa",
+  "name" : "test_with_epic_1",
+  "time" : {
+    "start" : 1650113016141,
+    "stop" : 1650113016142,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17f3ee7ec862dfd5",
+  "name" : "test_case1_02[2]",
+  "time" : {
+    "start" : 1650113028215,
+    "stop" : 1650113029215,
+    "duration" : 1000
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a31a7f0ce25f71bb",
+  "name" : "多个参数1,2,3",
+  "time" : {
+    "start" : 1650113011070,
+    "stop" : 1650113011070,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8cd670f4465875e",
+  "name" : "test_without_any_annotations_that_wont_be_executed",
+  "time" : {
+    "start" : 1650113016139,
+    "stop" : 1650113016139,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aca6385895e8e89e",
+  "name" : "test_with_named_link",
+  "time" : {
+    "start" : 1650113011092,
+    "stop" : 1650113011092,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa2b6896b78fb33",
+  "name" : "test_case1_02[4]",
+  "time" : {
+    "start" : 1650113030225,
+    "stop" : 1650113031225,
+    "duration" : 1000
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f86450d1b0eda028",
+  "name" : "test_no_fixture[2]",
+  "time" : {
+    "start" : 1650113013110,
+    "stop" : 1650113014110,
+    "duration" : 1000
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a04d7560e31dac93",
+  "name" : "test_no_fixture[4]",
+  "time" : {
+    "start" : 1650113015119,
+    "stop" : 1650113016119,
+    "duration" : 1000
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46e61fdff8bed7a7",
+  "name" : "test_no_fixture[4]",
+  "time" : {
+    "start" : 1650113020171,
+    "stop" : 1650113021171,
+    "duration" : 1000
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfec4bcca821a7a1",
+  "name" : "test_with_nested_steps",
+  "time" : {
+    "start" : 1650113011086,
+    "stop" : 1650113011087,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22f3b558830374e3",
+  "name" : "多个参数7,8,9",
+  "time" : {
+    "start" : 1650113011080,
+    "stop" : 1650113011080,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7a52a7d1ba89ab9",
+  "name" : "test_no_fixture[1]",
+  "time" : {
+    "start" : 1650113012106,
+    "stop" : 1650113013106,
+    "duration" : 1000
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9f4e4459489994d",
+  "name" : "test_case1_02[0]",
+  "time" : {
+    "start" : 1650113026204,
+    "stop" : 1650113027204,
+    "duration" : 1000
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "352eb95a91b308c",
+  "name" : "test_with_story_2_and_feature_2",
+  "time" : {
+    "start" : 1650113016150,
+    "stop" : 1650113016150,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

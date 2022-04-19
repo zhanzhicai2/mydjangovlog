@@ -1,0 +1,87 @@
+{
+  "uid" : "a31a7f0ce25f71bb",
+  "name" : "多个参数1,2,3",
+  "fullName" : "test_allure_attach#test_test_test",
+  "historyId" : "1af577135a2575a1df3a11acbe804f50",
+  "time" : {
+    "start" : 1650113011070,
+    "stop" : 1650113011070,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4fee6ecd88dbdc54",
+      "name" : "stdout",
+      "source" : "4fee6ecd88dbdc54.txt",
+      "type" : "text/plain",
+      "size" : 6
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_allure_attach"
+  }, {
+    "name" : "host",
+    "value" : "win-10"
+  }, {
+    "name" : "thread",
+    "value" : "10852-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_allure_attach"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "age",
+    "value" : "3"
+  }, {
+    "name" : "name",
+    "value" : "1"
+  }, {
+    "name" : "phone",
+    "value" : "2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ea3749b6864f5b78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650112783083,
+        "stop" : 1650112783083,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a31a7f0ce25f71bb.json",
+  "parameterValues" : [ "3", "1", "2" ]
+}

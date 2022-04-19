@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*解决页面浮动后的塌陷问题*/
+        .clearfix {
+            zoom: 1;
+        }
+
+        .clearfix:after {
+            content: "";
+            display: block;
+            visibility: hidden;
+            line-height: 0;
+            clear: both;
+        }
+
+        body, div {
+            margin: 0 auto;
+        }
+
+
+        div {
+            border: 1px solid gray;
+            width: 750px;
+            text-align: center;
+        }
+
+
+        ul {
+            list-style-type: none;
+            display: inline-block;
+
+        }
+
+
+        #header li {
+            float: left;
+            margin-left: 10px;
+            font-size: 16px;
+            font-family: '微软雅黑';
+            color: #666666;
+
+
+        }
+
+        #header li:hover {
+            cursor: pointer;
+            background: blue;
+            color: white;
+        }
+
+
+        #content li {
+            float: left;
+            display: inline;
+            margin-right: 15px;
+            text-align: center;
+            height: 225px;
+            overflow: hidden;
+            padding-top: 10px;
+            padding-bottom: 5px;
+
+        }
+
+        #content h1 {
+            font-size: 14px;
+            margin: 0;
+        }
+
+        .tip {
+            display: block;
+            font-size: 12px;
+        }
+
+        .h1, .tip {
+            width: 110px;
+            text-align: center;
+        }
+
+        #content ul {
+            /*去除ul的内边距和外边距*/
+            margin: 0;
+            padding: 0;
+
+        }
+    </style>
+</head>
+<body>
+<!--a(href='baidu.com') 百度-->
+<!--ul.nav>li*4>{菜单,$$}-->
+<table border="1" cellpadding="0" width="500px">
+    <tr>
+        <th>编号</th>
+        <th>名字</th>
+        <th>城市代码</th>
+        <th>描述</th>
+        <th>城市population</th>
+    </tr>
+    {% for city in City %}
+    <tr>
+        <td>{{ city.id }}</td>
+        <td>{{ city.name }}</td>
+        <td width="100px">{{ city.countrycode }}</td>
+        <td>{{ city.district }}</td>
+        <td>{{ city.population }}</td>
+    </tr>
+    {% endfor %}
+</table>
+    <div>
+        <a href="/city/index/?num={{ pre_page_num }}">上一页</a>
+        {% for n in sum_city_page %}
+            {% if n < 11 %}
+                <a href="/city/index/?num={{ n }}">{{ n }}</a>&emsp;
+            {% endif %}
+        {% endfor %}
+        <a href="/city/index/?num={{ next_page_num }}">下一页</a>
+    </div>
+</body>
+</html>
